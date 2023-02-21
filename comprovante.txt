@@ -1,0 +1,8 @@
+nome: Cleiton
+telefone: 8799999
+rua: Rua tal
+número: 555
+bairro: Bairro tal
+Produto:  Mussarelamedia, Quantidade: 1, Valor: 30.0
+Produto: Latinha 350 Fanta Uva, Quantidade: 1, Valor: 3.5
+VALOR TOTAL: 33.5

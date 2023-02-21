@@ -1,5 +1,5 @@
-import MENU_F
-import BEBIDAS_1
+import MENU
+import BEBIDAS
 
 lstPedido = [[], [], []]
 
@@ -37,7 +37,7 @@ def fazerPedido():
 
         elif opcaoPedido == 4:
 
-            return MENU_F.menuPrincipal()
+            return MENU.menuPrincipal()
 
         else:
             print("Opção Invalida!")
@@ -179,19 +179,19 @@ def bebidas():
         print("{0:<6}{1:<12}".format("4", "Guaraná"))
         refri = int(input("Digite o refrigerante que você deseja:"))
         if refri == 1:
-            lista = BEBIDAS_1.tamanhoCoca()
+            lista = BEBIDAS.tamanhoCoca()
 
 
         elif refri == 2:
-            lista = BEBIDAS_1.tamanhoPepsi()
+            lista = BEBIDAS.tamanhoPepsi()
 
 
         elif refri == 3:
-            lista = BEBIDAS_1.tamanhoFanta()
+            lista = BEBIDAS.tamanhoFanta()
 
 
         elif refri == 4:
-            lista = BEBIDAS_1.tamanhoGuarana()
+            lista = BEBIDAS.tamanhoGuarana()
 
 
         else:

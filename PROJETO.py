@@ -1,25 +1,25 @@
-from MENU_F import menuPrincipal
-import FUNCOES_F2
+from MENU import menuPrincipal
+import FUNCOES
 
-FUNCOES_F2.cadastrarCliente()
+FUNCOES.cadastrarCliente()
 def main():
 
     while True:
         opcaoMenu = menuPrincipal()
         if opcaoMenu == 1:
-            FUNCOES_F2.fazerPedido()
+            FUNCOES.fazerPedido()
 
         elif opcaoMenu == 2:
-            FUNCOES_F2.promocao()
+            FUNCOES.promocao()
 
         elif opcaoMenu == 3:
-            FUNCOES_F2.editarPedido()
+            FUNCOES.editarPedido()
 
         elif opcaoMenu == 4:
-            FUNCOES_F2.removerPedido()
+            FUNCOES.removerPedido()
 
         elif opcaoMenu == 5:
-            FUNCOES_F2.finalizerCompra()
+            FUNCOES.finalizerCompra()
             print("Aplicação finalizada!")
             break
 
