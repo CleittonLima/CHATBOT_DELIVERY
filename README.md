@@ -1,2 +1,2 @@
-# BOT_DELIVERY
- Um bot para delivery
+# CHATBOT_DELIVERY
+ Um Chatbot para delivery
